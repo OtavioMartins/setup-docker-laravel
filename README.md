@@ -3,30 +3,18 @@
 ## Passo a passo
 Clone Repositório
 ```sh
-git clone https://github.com/OtavioMartins/setup-docker-laravel.git
-```
-Clone os Arquivos do Laravel
-```sh
-git clone https://github.com/laravel/laravel.git app-laravel
-```
-Copie os arquivos docker-compose.yml, Dockerfile e o diretório docker/ para o seu projeto
-
-```sh
-cp -rf setup-docker-laravel/* app-laravel/
+git clone https://github.com/OtavioMartins/setup-docker-laravel.git base
 ```
 
 ```sh
-cd app-laravel/
+cd base/
 ```
 Crie o Arquivo .env
 
 ```sh
 cp .env.example .env
 ```
-Parar versionamento git
-```sh
-rm -rf git
-```
+
 
 Atualize as variáveis de ambiente do arquivo .env
 
@@ -75,6 +63,21 @@ Parar versionamento git
 ```sh
 rm -rf git
 ```
+
+___
+## Caso tenha algum problema com remote no git
+
+Obterá uma lista de identificadores e URLs associados
+```sh
+git remote -v
+```
+Para remover URLs associados
+```sh
+git remote remove origin
+```
+___
+
+
 ### Laravel
 Acessar o projeto http://localhost:8088
 
