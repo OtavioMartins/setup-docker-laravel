@@ -9,7 +9,7 @@ git clone -b laravel-11-vue-3 https://github.com/OtavioMartins/setup-docker-lara
 ```
 ### Laravel 11 com Docker
 ```sh
-cd laravel-11
+cd laravel-11-vue-3
 ```
 
 Suba os containers do projeto
@@ -93,3 +93,24 @@ git init
 ```sh
 npm run build
 ```
+
+### Links úteis
+- [Vue.js](https://vuejs.org/)
+
+- [Router Vue](https://router.vuejs.org/)
+
+- [Pinia](https://pinia.vuejs.org/getting-started.html)
+
+- [Laravel/UI](https://github.com/laravel/ui)
+
+- [W3schools Bootstrap](https://www.w3schools.com/bootstrap5/)
+
+- [Laravel 11](https://laravel.com/docs/11.x)
+
+- [Sanctum Laravel 11](https://laravel.com/docs/11.x/sanctum)
+
+
+
+
+
+
